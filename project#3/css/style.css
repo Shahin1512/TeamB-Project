@@ -1,0 +1,82 @@
+
+
+    /* travel benifite start here */
+    #travel_benifite{
+        
+        padding: 150px 0px 100px 0px;
+    }
+
+    #travel_benifite .travel_benifite_text h3{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #1E1E1E;
+    }
+    #travel_benifite .travel_benifite_text p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        color: #616161;
+        padding: 0px 209px;
+        
+    }
+    /* travel benifite end here */
+
+    
+    /* services part start here */
+    #services .service_container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+       
+    }
+    #services .service_container .item{
+        background: var(--white);
+        padding: 79px 74.45px 47px 44.59px;
+        margin-bottom: 30px;
+      
+    }
+    #services .service_container .item:hover{
+        box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+        border-radius: 14px;
+    }
+    #services .service_container .item .icon{
+        width: 84.18px;
+        height: 75px;
+        background: rgba(0, 127, 95, 0.1);
+        border-radius: 14px;
+        align-items: center;
+        display: flex;
+        padding-left: 7px;
+        
+        /* margin-bottom: 42px; */
+    }
+    #services .service_container .item .icon a{
+        padding: 17px 24px;
+    }
+    #services .service_container .item .icon a i{
+        font-size: 40px;
+    }
+    #services .service_container .item h3{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        color: #1E1E1E;
+    }
+    #services .service_container .item p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color: #616161;
+        padding-right: 10px;
+    }
+    /* services part end here */
